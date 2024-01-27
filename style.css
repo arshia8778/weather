@@ -30,12 +30,12 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(11, 10, 10);
-    margin-top: 20px;
-    margin-left: 50px;
-    width: 120vh;
+    background-color: black;
+    margin-top: 4vh;
+    margin-left: 10vh;
+    width: 130vh;
     height: 70vh;
-    border-radius: 5px;
+    border-radius: 1vh;
     border: 1px solid rgb(47, 234, 255);
 }
 
@@ -44,9 +44,10 @@ justify-content: center;
 background-image: url('nody-عکس-قشنگ-دریا-1627232435.jpg');
     border: 2px solid rgb(47, 234, 255);;
     background-size: cover;
-    border-radius: 5px;
+    border-radius: 1vh;
     width: 55vh;
     height: 73vh;
+    margin-left: -2px;
 }
 
 .page-1:hover{
@@ -58,8 +59,8 @@ background-image: url('nody-عکس-قشنگ-دریا-1627232435.jpg');
 }
 
 .page-2{
-    width: 66vh;
-    height: 70vh;
+    width: 75vh;
+    height: 75vh;
 }
 
 
@@ -67,9 +68,9 @@ background-image: url('nody-عکس-قشنگ-دریا-1627232435.jpg');
 background-color: black;
 color: #fff;
 list-style-type: none;
-border-radius: 5px;
+border-radius: 1vh;
 text-align: center;
-border: 1px solid rgb(47, 234, 255);
+/* border: 1px solid rgb(47, 234, 255); */
 }
 
 li{
@@ -84,9 +85,42 @@ transition: all 0.5s;
 background-color: cornflowerblue;
 box-shadow: 0 0 5px 1px rgb(47, 234, 255), 0 0 5px 3px rgb(47, 234, 255);
 }
-
-
 button{
+  background-color: blue;
+  color: #000000;
+  margin-top: 2px;
+ font-size: 2vh;
+}
+button:hover{
+  background-color: rgb(70, 70, 154);
+  transition: all 1s;
+
+  transform: scale( 1.3 , 1.3 );
+}
+
+#searchInput{
+    margin-top: 8vh;
+    background-color: black;
+    color: #fff;
+    font-size: 3vh;
+    padding: 2vh 5vh 2vh 5vh;
+    display: flex;
+    text-align: center;
+    border: 1px solid rgb(47, 234, 255);
+    border-radius: 1vh;   
+}
+#searchInput[type="search"]:focus {
+    background-color: rgb(87, 99, 109);
+}
+#searchInput[type="search"]:focus::placeholder{
+    color: #000000;
+} 
+
+
+
+
+
+/* button{
 margin-top: 30px;
 background-color: black;
 color: #fff;
@@ -103,4 +137,36 @@ button:hover{
 transition: all 0.5s;
 background-color: cornflowerblue;
 box-shadow: 0 0 5px 1px rgb(47, 234, 255), 0 0 5px 3px rgb(47, 234, 255);
+} */
+/* input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
 }
+.card {
+
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 80%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar:focus {
+  background-color: rgb(87, 99, 109);
+}
+.search-bar:focus::placeholder{
+  color: #000000;
+} */
